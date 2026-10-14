@@ -19,7 +19,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: artefact_recolte
-          path: ./dot*.*
+          path: ./*.svg
 
 
 
