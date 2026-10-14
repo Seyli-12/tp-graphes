@@ -14,7 +14,7 @@ jobs:
       - name: Rend executable
         run: chmod +x ./run1.sh
       - name: Lancement graphviz
-        run: ./run1.sh g1
+        run: ./run2.sh 
       - name : upload du resultat
         uses: actions/upload-artifact@v4
         with:
